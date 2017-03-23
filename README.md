@@ -5,7 +5,7 @@ that can be executed in a mult-threaded manner.
 
 Starting the Producer Command
 
-java -Xmx7373m -cp `mapr classpath`:/tmp/uber-streams-internals-demo-0.1.jar com.mapr.sko.ps.StartSensors /sko/teststream:testtopic 1000 100 100 500 /tmp/data.json
+java -Xmx7373m -cp \`mapr classpath\`:/tmp/uber-streams-internals-demo-0.1.jar com.mapr.sko.ps.StartSensors /sko/teststream:testtopic 1000 100 100 500 /tmp/data.json
 
 StartSensors class starts multiple Producers based on the parameters passed in. Each producer will be running in its own thread
 
